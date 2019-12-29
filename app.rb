@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-configure do 
+configure do
   enable :sessions
   set session_secretm 'flatiron'
 end
